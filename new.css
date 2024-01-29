@@ -2,7 +2,7 @@
     
   
     .ss{color: azure;font-size: 15px;}
-    .first,.second{
+    .first,.second,.main{
         font-size: auto;
         border-color:white ;
     }
@@ -11,6 +11,7 @@
        size:10px
     }
     
+    .main{width: 20em;}
 }
 @media (min-width: 500px) and (max-width:768px){
 
@@ -18,7 +19,7 @@
     .ss{color: azure;font-size: 15px;}
    
  
-    .first,.second{
+    .first,.second,.main{
         font-size: auto;
         border-color:white ;
     }
@@ -26,13 +27,14 @@
     
        size:10px
     }
-   
+    .main{width: 20em;}
+
 }
 @media (min-width: 768px){
    
 
     
-    .first,.second{
+    .first,.second,.main{
         font-size: auto;
         border-color:white ;
     }
@@ -40,13 +42,15 @@
     .ss{color: azure;font-size: 15px;}
 
 }
+.main{width: 22em;}
 
 
 @media (min-width:1000px){
  
 
-    
-    .first,.second{
+    .main{width: 24em;}
+
+    .first,.second,.main{
         font-size:50px;
         border-color:white ;
     }
@@ -58,7 +62,7 @@
 .ss{letter-spacing:0px;}
 ul{right:0px;transition: all 0.5s;width: 40px;font-weight: lighter;}
 .main{
-    width: auto;
+    
     height: auto;
     background-color: #a52a2a;
     border-radius: 10px;
