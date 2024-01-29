@@ -39,16 +39,16 @@
         border-color:white ;
     }
   
-    .ss{color: azure;font-size: 15px;}
+    .ss{color: azure;font-size: 14px;}
 
 }
-.main{width: 30em;}
+.main{width: 28em;}
 
 
 @media (min-width:1000px){
  
 
-    .main{width: 30em;}
+    .main{width: 28em;}
 
     .first,.second,.main{
         font-size:50px;
