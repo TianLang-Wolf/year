@@ -42,13 +42,13 @@
     .ss{color: azure;font-size: 15px;}
 
 }
-.main{width: 22em;}
+.main{width: 30em;}
 
 
 @media (min-width:1000px){
  
 
-    .main{width: 24em;}
+    .main{width: 30em;}
 
     .first,.second,.main{
         font-size:50px;
