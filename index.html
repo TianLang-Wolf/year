@@ -28,10 +28,9 @@
 
    
 <script>
-   console.log("version: 0.2");
-   console.log("version: 0.2");
+   console.log("version: 0.2.1");
     async function showagain() {
-  const res = await fetch('change.js');
+  const res = await fetch('data.json');
   const data = await res.json();
   //   随机取出data的某一项
   const randomIndex = Math.floor(Math.random() * data.length);
