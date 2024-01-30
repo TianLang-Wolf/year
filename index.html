@@ -29,16 +29,7 @@
    
 <script>
    console.log("version: 0.2");
-   async function showagain() {
-  const res = await fetch('data.json');
-  const data = await res.json();
-  //   随机取出data的某一项
-  const randomIndex = Math.floor(Math.random() * data.length);
-  const randomtext = data[randomIndex].text;
-    let b=document.getElementById("second");
-    b.innerText=randomtext;
-}
-showagain();
+   
 </script>
 <script src="change.js"></script>
 </body>
