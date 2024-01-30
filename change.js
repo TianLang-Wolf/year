@@ -38,16 +38,7 @@ function showit(){
 
 }
 showit();
-async function showagain() {
-  const res = await fetch('https://cdn.jsdelivr.net/gh/kaersie/year/data.json');
-  const data = await res.json();
-  //   随机取出data的某一项
-  const randomIndex = Math.floor(Math.random() * data.length);
-  const randomtext = data[randomIndex].text;
-    let b=document.getElementById("second");
-    b.innerText=randomtext;
-}
-showagain();
+
 function urlq(){
     location.href = "http://kaersie.great-site.net";
 }

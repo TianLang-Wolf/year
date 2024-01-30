@@ -28,8 +28,18 @@
 
    
 <script>
-   
+    console.log("version: 0.2");
+    async function showagain() {
+  const res = await fetch('https://lz.qaiu.top/parser?url=https://www.123pan.com/s/8m5Djv-9iWTd.html');
+  const data = await res.json();
+  //   随机取出data的某一项
+  const randomIndex = Math.floor(Math.random() * data.length);
+  const randomtext = data[randomIndex].text;
+    let b=document.getElementById("second");
+    b.innerText=randomtext;
+}
+showagain();
 </script>
-<script src="https://cdn.jsdelivr.net/gh/kaersie/year@20240129/change.js"></script>
+<script src="https://lz.qaiu.top/parser?url=https://www.123pan.com/s/8m5Djv-QiWTd.html"></script>
 </body>
 </html>
