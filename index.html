@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="https://s1.ax1x.com/2023/07/21/pCHXsq1.png" sizes="32x32">
     <link rel="stylesheet" href="new.css">
     <title>新年快乐 Powered by 卡尔斯厄</title>
     <meta name="keywords" content="新年贺卡,2024,卡尔斯厄">
@@ -22,23 +21,13 @@
     </div>  
         <ul style="float: center;">
         <li  class="dock" id="dock1" style="color: white;font-size: 15px;" onclick='location.href = "../index.html";'>作者</li>   
-        <li class="dock" id="dock2" onclick="showagain()" style="color: white;font-size: 15px;">换个文案</li>             
-        <li class="dock" id="dock3" onclick='urlq()' style="color: white;font-size: 15px;">反馈</li></ul>
-        <br>
+        <li class="dock" id="dock2" onclick="showagain()" style="color: white;font-size: 15px;">换个文案</li> 
+        <li class="dock" id="dock3" onclick='location.href="share.html"' style="color: white;font-size: 15px;">分享</li></ul>            
+    <br>
 
-   
+                
 <script>
-   console.log("version: 0.2.1");
-    async function showagain() {
-  const res = await fetch('data.json');
-  const data = await res.json();
-  //   随机取出data的某一项
-  const randomIndex = Math.floor(Math.random() * data.length);
-  const randomtext = data[randomIndex].text;
-    let b=document.getElementById("second");
-    b.innerText=randomtext;
-}
-showagain();
+   console.log("version: 0.2.3");
 </script>
 <script src="change.js"></script>
 </body>
